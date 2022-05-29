@@ -8,8 +8,8 @@ const Nav = () => {
   const currentLocation = createMemo(() => location.pathname);
 
   const links = [
-    { text: "Home", to: "/" },
-    { text: "About", to: "/about" },
+    { text: "Home", to: import.meta.env.BASE_URL },
+    { text: "About", to: `${import.meta.env.BASE_URL}about` },
   ];
   const activeClass = "text-white bg-gray-900";
   const inactiveClass = "text-gray-300 hover:text-white hover:bg-gray-700";
