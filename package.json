@@ -1,6 +1,7 @@
 {
   "name": "solid-tailwindcss-starter",
   "homepage": "https://kinfei.github.io/solid-tailwindcss-starter",
+  "private": true,
   "version": "0.0.0",
   "description": "",
   "scripts": {
