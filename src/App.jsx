@@ -22,8 +22,6 @@ const NotFound = lazy(() => import("./views/NotFound"));
 //   },
 // ];
 
-// test
-
 const App = () => {
   return (
     // <Router routes={routes}>
