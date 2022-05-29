@@ -9,7 +9,7 @@ const Nav = () => {
   const currentLocation = createMemo(() => location.pathname);
 
   console.log({
-    s: `${import.meta.env.BASE_URL}${location.pathname}`.replace("//", "/"),
+    loc: `${import.meta.env.BASE_URL}${location.pathname}`.replace("//", "/"),
   });
 
   const links = [
