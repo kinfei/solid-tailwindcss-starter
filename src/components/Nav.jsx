@@ -10,6 +10,10 @@ const Nav = () => {
     `${import.meta.env.BASE_URL}${location.pathname}`.replace("//", "/")
   );
 
+  console.log({
+    s: `${import.meta.env.BASE_URL}${location.pathname}`.replace("//", "/"),
+  });
+
   const links = [
     { text: "Home", to: import.meta.env.BASE_URL },
     { text: "About", to: `${import.meta.env.BASE_URL}about` },
