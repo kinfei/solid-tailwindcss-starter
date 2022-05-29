@@ -6,7 +6,6 @@ export default defineConfig({
   build: {
     target: "esnext",
     polyfillDynamicImport: false,
-    root: "solid-tailwindcss-starter",
     outDir: "./build",
   },
 });
