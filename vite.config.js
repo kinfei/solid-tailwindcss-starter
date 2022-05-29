@@ -6,8 +6,6 @@ export default defineConfig({
   build: {
     target: "esnext",
     polyfillDynamicImport: false,
-    root: "src",
-    publicDir: "./build",
     outDir: "./build",
   },
 });
