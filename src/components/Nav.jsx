@@ -5,7 +5,10 @@ const Nav = () => {
   const [showProfileMenu, setShowProfileMenu] = createSignal(false);
   const [showMenu, setShowMenu] = createSignal(false);
   const location = useLocation();
-  const currentLocation = createMemo(() => location.pathname);
+
+  const currentLocation = createMemo(() =>
+    `${import.meta.env.BASE_URL}${location.pathname}`.replace("//", "/")
+  );
 
   const links = [
     { text: "Home", to: import.meta.env.BASE_URL },
