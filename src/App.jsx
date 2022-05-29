@@ -32,8 +32,8 @@ const App = () => {
     <Router>
       <Nav />
       <Routes>
-        <Route path={import.meta.env.BASE_URL} element={<Home />} />
-        <Route path={`${import.meta.env.BASE_URL}about`} element={<About />} />
+        <Route path={"/"} element={<Home />} />
+        <Route path="/about" element={<About />} />
         <Route path="*all" element={<NotFound />} />
       </Routes>
     </Router>
