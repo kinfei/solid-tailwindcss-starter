@@ -6,9 +6,7 @@ const Nav = () => {
   const [showMenu, setShowMenu] = createSignal(false);
   const location = useLocation();
 
-  const currentLocation = createMemo(() =>
-    `${import.meta.env.BASE_URL}${location.pathname}`.replace("//", "/")
-  );
+  const currentLocation = createMemo(() => location.pathname);
 
   console.log({
     s: `${import.meta.env.BASE_URL}${location.pathname}`.replace("//", "/"),
