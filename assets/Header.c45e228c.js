@@ -1,0 +1,1 @@
+import{i as a,t as r}from"./index.6be9dc8c.js";const i=r('<header class="bg-white shadow"><div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8"><h1 class="text-3xl font-bold leading-tight text-gray-900"></h1></div></header>'),d=e=>(()=>{const t=i.cloneNode(!0),l=t.firstChild,s=l.firstChild;return a(s,()=>e.title),t})();export{d as H};
